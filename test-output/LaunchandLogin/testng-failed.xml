@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LaunchandLogin]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="snapEnagage(failed)">
+    <classes>
+      <class name="Snapengage_Cucumber.snapengage_Runner.MainRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Snapengage_Cucumber.snapengage_Runner.MainRunner -->
+    </classes>
+  </test> <!-- snapEnagage(failed) -->
+</suite> <!-- Failed suite [LaunchandLogin] -->

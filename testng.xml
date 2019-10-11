@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LaunchandLogin" >
+<test name ="snapEnagage">
+<classes>
+<class name= "Snapengage_Cucumber.snapengage_Runner.MainRunner">
+</class></classes></test></suite> 

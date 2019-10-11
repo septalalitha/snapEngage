@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4067254381,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 354736635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2339098609,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to snapengage sigin Page",
+            "match": {
+              "location": "Login.user_navigates_to_snapengage_sigin_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 317126310,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the username and password",
+            "match": {
+              "location": "Login.user_enters_the_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3429977292,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the sigin Button",
+            "match": {
+              "location": "Login.user_clicks_on_the_sigin_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 701966089,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will see the Agent portal succcessfully",
+            "match": {
+              "location": "Login.user_will_see_the_Agent_portal_succcessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "       Exisiting user should be able to login",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
